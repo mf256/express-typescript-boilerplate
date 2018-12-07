@@ -1,3 +1,6 @@
+lib
+package-lock.json
+
 # Logs
 logs
 *.log
@@ -59,3 +62,8 @@ typings/
 
 # next.js build output
 .next
+
+# other
+.DS_Store
+.reports
+junit.xml
