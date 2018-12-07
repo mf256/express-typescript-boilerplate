@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "rootDirs": [
+        "src/",
+        "lib/"
+      ],
+      "baseUrl": "src",
+      "outDir": "./lib",
+
+      "target": "es6",
+      "lib": [
+        "es2016",
+        "esnext.asynciterable"
+      ],
+      "module": "commonjs",
+      "sourceMap": true,
+      "strict": false,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true
+    },
+    "include": [
+      "./src/"
+    ]
+  }
+  
